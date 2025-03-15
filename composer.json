@@ -1,0 +1,27 @@
+{
+    "name": "adroit11/laravel-tests",
+    "description": "Reuseable laravel tests boilerplate",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adroit11\\LaravelTests\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ogundiji Bolade Adio",
+            "email": "kamponistullar@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^12.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adroit11\\LaravelTests\\AdroitTestPackageServiceProvider"
+            ]
+        }
+    }
+}
